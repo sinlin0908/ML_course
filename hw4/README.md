@@ -61,8 +61,11 @@ Model(
 
 ![](https://i.imgur.com/6tGDYZM.png)
 
-- 估測誤差: 420.03254 (公式 $\sum_{k=1}^{N}(Predict_k-y_k)^2$)
-
+- 估測誤差: 420.03254 
+公式:
+```math
+$\sum_{k=1}^{N}(Predict_k-y_k)^2$
+```
 
 ## Usage
 
