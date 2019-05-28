@@ -44,8 +44,8 @@ Model(
 - learning rate: 0.0001
 - model
     - input_dim=5,
-    - hidden_dim=64, 
-    - num_layers=2, 
+    - hidden_dim=64,
+    - num_layers=2,
     - output_dim=1
     - dropout=0.0
 
@@ -61,10 +61,11 @@ Model(
 
 ![](https://i.imgur.com/6tGDYZM.png)
 
-- 估測誤差: 420.03254 
+估測誤差: 420.03254
 
 公式:
-$\sum_{k=1}^{N}(Predict_k-y_k)^2$
+
+![](http://latex.codecogs.com/gif.latex?sum_{k=1}^{N}(Predict_k-y_k)^2)
 
 ## Usage
 
